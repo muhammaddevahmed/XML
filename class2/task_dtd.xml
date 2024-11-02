@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Softech SYSTEM "softech.dtd">
+
+
+<Softech>
+    <department name="software">
+        <Senior>
+            <id>1</id>
+            <employeename>Ahmed</employeename>
+            <email>Ahmed@gmail.com</email>
+            <post>Web Developer</post>
+            <salary>90000</salary>
+        </Senior>
+        <Junior>
+            <id>2</id>
+            <employeename>Ali</employeename>
+            <email>Ali@gmail.com</email>
+            <post>Java Developer</post>
+            <salary>40000</salary>
+        </Junior>
+    </department>
+
+    <department name="IT">
+        <Senior>
+            <id>1</id>
+            <employeename>Haris</employeename>
+            <email>Haris@gmail.com</email>
+            <post>Python Developer</post>
+            <salary>80000</salary>
+        </Senior>
+        <Junior>
+            <id>2</id>
+            <employeename>Abdullah</employeename>
+            <email>Abdullah@gmail.com</email>
+            <post>Laravel Developer</post>
+            <salary>50000</salary>
+        </Junior>
+    </department>
+</Softech>
+
+ 

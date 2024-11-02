@@ -1,0 +1,10 @@
+<!ELEMENT Softech (department)*>
+<!ELEMENT department (Senior*, Junior*)>
+<!ATTLIST department name CDATA #REQUIRED>
+<!ELEMENT Senior (id, employeename, email, post, salary)>
+<!ELEMENT Junior (id, employeename, email, post, salary)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT employeename (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT post (#PCDATA)>
+<!ELEMENT salary (#PCDATA)>

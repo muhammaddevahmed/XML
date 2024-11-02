@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Students [
+    <!ELEMENT Students (id,name,course,(email|phone)+)*>   <!-- extendable -->
+    <!ELEMENT id (#PCDATA)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT course (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    <!ELEMENT phone (#PCDATA)>
+    <!ATTLIST course semester CDATA #REQUIRED>
+    <!ENTITY cfamily "7062">
+]>
+<Students>
+    <id>123</id>
+    <name>Ahmed</name>
+    <course semester="1">&cfamily;</course>
+    <phone>0162345</phone>
+
+    <id>2345</id>
+    <name>Ali</name>
+    <course semester="1">&cfamily;;</course>
+    <email>ali@gmail.com</email>
+    <phone>0364644</phone>
+</Students>
