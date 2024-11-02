@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>  <!-- prolog -->
+<aptech>
+    <center name="SFC">
+        <department name="Faculty">
+            <employees status="Senior">
+                <employee id="STD:3245">
+                    <name>Ahmed</name>
+                    <phone>45679</phone>
+                    <designation>Senior</designation>
+                    <salary>45890</salary>
+                </employee>
+            </employees>
+        </department>
+        <department name="Student Affairs">
+            <employees status="Junior">
+                <employee id="STD:3245">
+                    <name>Huzaifa</name>
+                    <phone>34569</phone>
+                    <designation>Junior</designation>
+                    <salary>25000</salary>
+                </employee>
+            </employees>
+        </department>
+      
+    </center>
+
+    <center name="NN1">
+        <department name="Faculty">
+            <employees status="Junior">
+                <employee id="STD:678">
+                    <name>Ali</name>
+                    <phone>56789</phone>
+                    <designation>Junior</designation>
+                    <salary>36780</salary>
+                </employee>
+            </employees>
+        </department>
+
+        <department name="Student Affairs">
+            <employees status="Intern">
+                <employee id="STD:6578">
+                    <name>Khan</name>
+                    <phone>34569</phone>
+                    <designation>Intern</designation>
+                    <salary>10000</salary>
+                </employee>
+            </employees>
+        </department>
+    </center>
+
+    <center name="MSG">
+        <department name="Faculty">
+            <employees status="Intern">
+                <employee id="STD:9876">
+                    <name>Majid</name>
+                    <phone>98760</phone>
+                    <designation>Intern</designation>
+                    <salary>20000</salary>
+                </employee>
+            </employees>
+        </department>
+
+        <department name="Student Affairs">
+            <employees status="Senior">
+                <employee id="STD:3907">
+                    <name>Haris</name>
+                    <phone>54679</phone>
+                    <designation>Senior</designation>
+                    <salary>60000</salary>
+                </employee>
+            </employees>
+        </department>
+    </center>
+</aptech>
